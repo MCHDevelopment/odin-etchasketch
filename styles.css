@@ -1,0 +1,17 @@
+* {
+    background-color: wheat;
+}
+
+
+#scratchfield{
+    width:80vh;
+    height:80vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: calc((100vw - 80vh) / 2);
+    margin-right: calc((100vw - 80vh) / 2);
+    border-style: solid;
+    border-color: black;
+
+    display: flex;
+}
