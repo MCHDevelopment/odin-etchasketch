@@ -2,8 +2,7 @@
     background-color: wheat;
 }
 
-
-#scratchfield{
+#scratchArea{
     width:80vh;
     height:80vh;
     margin-top: 10vh;
@@ -14,4 +13,16 @@
     border-color: black;
 
     display: flex;
+    flex-direction: column;
+}
+
+.scratchRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.scratchField{
+    display: flex;
+    border-style: dashed;
+    border-color: black;
 }
