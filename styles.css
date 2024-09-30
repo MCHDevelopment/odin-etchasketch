@@ -19,10 +19,17 @@
 .scratchRow{
     display: flex;
     flex-direction: row;
+    flex: 1;
+
+    /*border-style: dotted;
+    border-color: red;*/
 }
 
 .scratchField{
     display: flex;
+    flex: 1;
+
     border-style: dashed;
     border-color: black;
+    border-width: 0.01em;
 }
