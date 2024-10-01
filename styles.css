@@ -33,3 +33,7 @@
     border-color: black;
     border-width: 0.01em;
 }
+
+.scratchedField{
+    background-color: aqua;
+}

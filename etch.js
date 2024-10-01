@@ -21,6 +21,11 @@ function createRow(numberOfFields) {
 function createField() {
     const scratchField = document.createElement("div");
     scratchField.classList.add("scratchField");
+
+    scratchField.addEventListener("mouseenter", () => {
+        scratchField.classList.add("scratchedField");
+      });
+
     return scratchField;
 }
 
